@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Registro
+        </title>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+        <link rel="stylesheet" href="maquillaje.css">
+        <div class="fondo">
+            <h1 id="form">Formulario</h1>
+            <form class="formulario" id="reg" method="POST">
+                <div>
+                    <input type="text" class="input_t input inputt" id="nombre" name="name" placeholder="Nombre">
+                </div>
+                <div>
+                    <input type="number" class="input_n input inputt" id="telefono" name="phone" placeholder="Telefono">
+                </div>
+                <div>
+                    <input type="text" class="input_a input inputt" id="direccion" name="address" placeholder="Direccion">
+                </div>
+                <div class="email" id="emal_div">
+                    <input type="email" class="input_e input inputt" id="email" name="mail" placeholder="Correo">
+                </div>
+                <div>
+                    <input type="email" class="input_e input inputt" id="c_email" name="cmail"placeholder="Confirme correo">
+                </div>
+                <div>
+                    <input type="number" class="input_n input inputt" id="edad" name="age" placeholder="Edad">
+                </div>
+                <div class="ratio_buttons" id="r_btn">
+                    <label>sexo</label>
+                    <div class="selector">
+                        <label>hombre</label> 
+                        <input type="radio" name="sexo" value="h" class="ratio_button" id="rhombre">
+                        <label>mujer</label>
+                        <input type="radio" name="sexo" value="m" class="ratio_button" id="rmujer"> 
+                    </div>
+                </div>
+               
+                <div>
+                    <span>
+                        <h4 id="error"></h4>
+                    </span>
+                    <!-- <button class="boton" id="btn_enviar">enviar</button> -->
+                </div>
+            </form> 
+            <div class="butons">
+                <input type="button" value="Restablecer" id="reset">
+                <input type="submit" name="submit" value="Registrarse" id="envio">
+            </div>
+        </div>
+        <!-- <div>
+            <h1>Ingresos</h1>
+            <div class="tabla_div">
+                <Table class="tabla" id="tabla_ingreso" border="bold">
+                    <tr>
+                        <th>ID</th>
+                        <th>nombre</th>
+                        <th>telefono</th>
+                        <th>direccion</th>
+                        <th>correo</th>
+                        <th>edad</th>
+                        <th>sexo</th>
+                    </tr>
+                    <div id="tabla1">
+                        
+                    </div>
+                </Table>
+            </div>
+        </div> -->
+        <script src="validacion.js"></script>
+    </body>
+</html>

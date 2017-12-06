@@ -1,0 +1,86 @@
+body
+{
+    background-image: url("background.jpg");
+    font-family: helvetica;
+}
+h5
+{
+    color: rgb(255, 255, 255);
+}
+h1
+{
+    margin: 20px 30px;
+    color: white;
+}
+.formulario
+{
+    font-family: helvetica;
+    text-align: center;
+    margin: 20px 30px;
+    color: white;
+    border-radius: 4px;
+    background:rgb(17, 16, 16);
+    width: 400px;
+    height: 420px;
+}
+.selector
+{
+    margin: 20px 20px;;
+}
+/*.tabla
+{
+    font-family: calibri;
+    color: white;
+    border: groove;
+}*/
+.ratio_button
+{
+
+    align-content: center;
+}
+/*
+#btn_enviar
+{
+    float: right;
+}*/
+#error{
+    color: red;
+    text-align: center;
+}
+.inputt
+{
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.fondo
+{
+    margin: 0px 400px;
+    align-items: center;
+}
+.butons{
+    margin: 0px 80px;
+}
+#envio,#reset{
+    background-color:rgb(17, 16, 16);
+    border: none;
+    border-radius:10%; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#form{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px -40px;
+    display: inline-block;
+    background:rgb(199, 25, 25);
+    box-sizing: border-box;
+}
