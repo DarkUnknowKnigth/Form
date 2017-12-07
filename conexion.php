@@ -1,6 +1,8 @@
 <?php
 //cadena de coneccion ala base de datos (ip,user,passwrd,db)
 //cabeceras
+
+
 $connection = mysqli_connect('localhost', 'root', '', 'registro') or die("no se pudo ingresar a la base de datos");
 //obtener valores del formulario
 //$_POST es un array asociativo al cual accedes por el nombre de las etiquetas que se enviaron en el enlace 
@@ -13,9 +15,8 @@ $telefono=$_POST['phone'];
 $sexo=$_POST['sexo'];
 //echo  $nombre.' '.$edad.' '.$direccion.' '.$correo.' '.$telefono;
 //comprobar que los campos se completaron
-
 $req=(strlen($nombre)*strlen($edad)*strlen($direccion)*strlen($correo)*strlen($telefono)) or die("no se llenaron todos los campos");
-//realizar la consulta
+//realizar la consultas
 try 
 {
     if($correo==$ccorreo)
